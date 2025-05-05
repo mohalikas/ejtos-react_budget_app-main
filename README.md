@@ -1,6 +1,14 @@
-# TP React
+# React Budget Allocation App
 
-A React application that demonstrates various React concepts.
+A React application for managing and allocating budgets across different departments. This project demonstrates the use of React concepts such as context, state management, and component-based architecture.
+
+## Features
+
+- View and manage department budgets.
+- Add or reduce budget allocations.
+- Delete department expenses.
+- Real-time updates with React Context API.
+- Responsive design using Bootstrap.
 
 ## Getting Started
 
@@ -12,8 +20,8 @@ A React application that demonstrates various React concepts.
 ### Clone the Repository
 
 ```bash
-git clone https://github.com/kyoucef27/tp-react.git
-cd tp-react
+git clone https://github.com/your-username/react-budget-allocation-app.git
+cd react-budget-allocation-app
 ```
 
 ### Install Dependencies
@@ -32,4 +40,43 @@ npm start
 yarn start
 ```
 
-The application will be available at http://localhost:3000 in your browser.
+The application will be available at [http://localhost:3000](http://localhost:3000) in your browser.
+
+## Project Structure
+
+```
+.
+├── public/
+│   ├── favicon.ico
+│   ├── index.html
+│   ├── logo192.png
+│   ├── logo512.png
+│   ├── manifest.json
+│   └── robots.txt
+├── src/
+│   ├── components/
+│   │   ├── AllocationForm.js
+│   │   ├── Budget.js
+│   │   ├── ExpenseItem.js
+│   │   ├── ExpenseList.js
+│   │   ├── ExpenseTotal.js
+│   │   └── Remaining.js
+│   ├── context/
+│   │   └── AppContext.js
+│   ├── App.css
+│   ├── App.js
+│   ├── App.test.js
+│   ├── index.css
+│   ├── index.js
+│   ├── logo.svg
+│   ├── reportWebVitals.js
+│   └── setupTests.js
+├── .gitignore
+├── LICENSE
+├── package.json
+└── README.md
+```
+
+## License
+
+This project is licensed under the Apache License 2.0. See the [LICENSE](LICENSE) file for details.
